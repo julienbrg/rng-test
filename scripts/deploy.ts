@@ -8,7 +8,7 @@ async function main() {
   const Random = await ethers.getContractFactory("Random")
   const random = await Random.deploy()
   await random.deployed();
-  console.log("Random contract deployed at", msg(random.address), "✅")  
+  console.log("Random contract deployed at", msg(random.address))  
 
   fs.writeFileSync(
     "store.json",

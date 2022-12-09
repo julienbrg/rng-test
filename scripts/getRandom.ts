@@ -24,7 +24,7 @@ async function main() {
 
   const random = new ethers.Contract(addr, randomAbi.abi, hacker)
   const r = await random.getRandom();
-  console.log("Random number:", msg(r), "✔")  
+  console.log("Random number:", msg(r))  
 
 }
 
