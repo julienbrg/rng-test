@@ -6,6 +6,8 @@ Ethereum PoS introduces randomness using `block.difficulty`. Please check [EIP-4
 
 The `getRandom()` function will return a random number between 1 and 100.
 
+Can't use it on Optimism ([docs](https://community.optimism.io/docs/useful-tools/oracles/#verifiable-randomness-function-vrf)).
+
 ## Install
 
 ```shell
