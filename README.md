@@ -2,7 +2,7 @@ RNG Test
 
 Testing on-chain RNG.
 
-Ethereum PoS introduces randomness using `block.difficulty`. Please check [EIP-4399](https://eips.ethereum.org/EIPS/eip-4399) to learn more about this. I got some inspiration [there]https://github.com/scaffold-eth/scaffold-eth/blob/dice-game-future-difficulty/packages/hardhat/contracts/DiceGame.sol).
+Ethereum PoS introduces randomness using `block.difficulty`. Please check [EIP-4399](https://eips.ethereum.org/EIPS/eip-4399) to learn more about this. I got some inspiration [there](https://github.com/scaffold-eth/scaffold-eth/blob/dice-game-future-difficulty/packages/hardhat/contracts/DiceGame.sol).
 
 The `getRandom()` function will return a random number between 1 and 100.
 
