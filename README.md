@@ -1,4 +1,4 @@
-RNG Test
+# RNG Test
 
 Testing on-chain RNG.
 
